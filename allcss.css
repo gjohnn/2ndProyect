@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+*{
+    background-color: rgb(1, 84, 105);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p{
+    margin:0px;
+}
+/* --------------------------------------------------------- HEADER ------------------------------------------------*/
+
+header *{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-around;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+}
+
+.header-logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 150px;
+    margin: 0px;
+}
+
+.header-logo-img{
+ width: 50px;
+ margin: 0px;
+}
+
+.bg-headercolor{
+    background-color: white;
+}
+
+.header-logo-title{
+    color:rgb(0, 0, 0);
+    padding-left: 3px;
+    font-size: 4rem;
+}
+
+
+
+.footer *{
+    padding: 10px 0px;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer{
+    background: white;
+}
+
+.container-f *{
+    background: white;
+    max-width: 1170px;
+    margin: auto;
+    padding: 0px;
+}
+
+.roww{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.footer-col{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0rem;
+    background-color:none;
+    display:inline-block;
+    width: auto;;
+}
+
+.footer-col ul{
+    
+    padding:0rem;
+    margin: 0px;
+}
+.footer-col li{
+    padding:0rem;
+    margin: 0;
+    color:grey;
+    transition: all 0.5s;
+}
+
+.footer-col li:hover{
+    padding-left: 1px;
+    color: black;
+}
+
+.footer-col a {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    color:grey;
+    transition: all 0.5s;
+}
+
+.footer-col a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    text-align: start;
+    text-transform: capitalize;
+    border-bottom: solid rgb(0, 0, 0) 2px;
+  
+}
+
+.social-links{
+    padding: 0;
+}
+
+.footer-col .social-links ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.footer-col .social-links a{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    background-color:grey;
+    margin-right: 10px;
+    color:white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.5s ;
+}
+
+.footer-col .social-links a:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+.footer-col .social-links i{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    color:white;
+    background: none;
+    transition: all 0.5s;
+}
+
+.footer-col .social-links i:hover{
+    color:black;
+    
+}
+
+.container-contac-form{
+    display: flex;
+    justify-content: center;
+}
+
+/* --- MAIN --- */
+
+
+@media only screen and (max-width: 768px){
+    .roww{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer-col{
+        padding: 10px;
+
+    }
+    
+}
+
+
+
+
